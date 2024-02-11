@@ -1,4 +1,4 @@
-//Gabriel Mejia y Bryan Arita
+//Gabriel Alexis Mejia y Bryan Arita
 package tarea.pkg2_progra1;
 
 import java.util.Scanner;
