@@ -132,9 +132,14 @@ public class Tarea2_Progra1 {
     }
 
     public static String Replace(String cadena, char nuevo, char viejo) {
-        String rep = "";
-        String nuevacadena=cadena.replace(viejo, nuevo);
-        rep += nuevacadena;
-        return rep;
+       String resultado = "";
+        for (int i = 0; i < cadena.length(); i++) {
+            if (cadena.charAt(i) == viejo) {
+                resultado += nuevo;
+            } else {
+                resultado += cadena.charAt(i);
+            }
+        }
+        return resultado;
     }
 }
